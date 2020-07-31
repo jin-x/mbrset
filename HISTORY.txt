@@ -1,0 +1,8 @@
+mbrset, v1.00 © 2020 Eugene Krasnikov / Евгений Красников (aka Jin X)
+MBR backup and replacement tool
+
+E-mail: jin_x@list.ru
+Telegram: @jinxonik
+
+v1.00 (31.07.2020):
+  [!] The first version that allows to backup and replace MBR (the first physical) sector and it parts (bootstrap code & signature, partition table) with partition table check if necessary.

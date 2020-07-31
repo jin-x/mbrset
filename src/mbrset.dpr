@@ -1,6 +1,8 @@
+(******************************************************************************
+
 MIT License
 
-Copyright (c) 2020 Eugene Krasnikov / Р•РІРіРµРЅРёР№ РљСЂР°СЃРЅРёРєРѕРІ (aka Jin X)
+Copyright (c) 2020 Eugene Krasnikov / Евгений Красников (aka Jin X)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -19,3 +21,21 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+******************************************************************************)
+
+program mbrset;
+
+uses
+  Forms,
+  Main in 'Main.pas' {FormMain};
+
+{$R *.res}
+{$R requireAdmin.res}
+
+begin
+  Application.Initialize;
+  Application.Title := 'mbrset';
+  Application.CreateForm(TFormMain, FormMain);
+  Application.Run;
+end.
