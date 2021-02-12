@@ -302,7 +302,7 @@ object FormMain: TFormMain
     Top = 120
     Width = 77
     Height = 21
-    Caption = ' Browse'#8230
+    Caption = 'Browse'#8230
     TabOrder = 7
     OnClick = ButtonBackupBrowseClick
     Glyph.Data = {
@@ -357,6 +357,7 @@ object FormMain: TFormMain
       BA787675504A49FFFFFFEBEBEB7F7F7FAAAAAAE7E7E7E7E7E7E6E6E6E6E6E6E6
       E6E6E6E6E6E6E6E6E6E6E6E7E7E7E5E5E5B2B2B2939393FFFFFF}
     NumGlyphs = 2
+    Spacing = 6
   end
   object ButtonReplaceBrowse: TBitBtn
     Left = 339
@@ -418,6 +419,7 @@ object FormMain: TFormMain
       81998B7E857159FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFEDEDEDEDEDEDF1F1F1BD
       BDBDBDBDBDB5B5B5B4B4B4AFAFAFABABABB1B1B19E9E9EFFFFFF}
     NumGlyphs = 2
+    Spacing = 6
   end
   object EditReplace: TEdit
     Left = 16
