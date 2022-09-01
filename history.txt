@@ -1,8 +1,11 @@
-mbrset, v1.00 © 2020 Eugene Krasnikov / Евгений Красников (aka Jin X)
+mbrset, v1.01 © 2020-2022 Евгений Красников (Eugene Krasnikov aka Jin X)
 MBR backup and replacement tool
 
 E-mail: jin_x@list.ru
 Telegram: @jinxonik
+
+v1.01 (01.09.2022):
+  [-] Fixed a bug: sometimes the program might not work because of an alignment error.
 
 v1.00 (31.07.2020):
   [!] The first version that allows to backup and replace MBR (the first physical) sector and it parts (bootstrap code & signature, partition table) with partition table check if necessary.

@@ -1,8 +1,8 @@
 (******************************************************************************
 
-MIT License
+The MIT License (MIT)
 
-Copyright (c) 2020 Eugene Krasnikov / Евгений Красников (aka Jin X)
+Copyright В© 2020 Р•РІРіРµРЅРёР№ РљСЂР°СЃРЅРёРєРѕРІ (Eugene Krasnikov aka Jin X)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -430,8 +430,10 @@ var
   DriveName, Filename, S: String;
   SaveDest, Error: Boolean;
   PartTblChk: (ptOk, ptEmpty, ptLarge, ptError);
-  SrcSec: array [0..511] of Byte;
-  DestSec: array [0..511] of Byte;
+  SrcSecAligned: array [0..SECTOR_SIZE div 4-1] of DWord;
+  SrcSec: array [0..SECTOR_SIZE-1] of Byte absolute SrcSecAligned;
+  DestSecAligned: array [0..SECTOR_SIZE div 4-1] of DWord;
+  DestSec: array [0..SECTOR_SIZE-1] of Byte absolute DestSecAligned;
   DiskGeometryEx: TDiskGeometryEx;
 
   // Returns -1 if C=H=S=0

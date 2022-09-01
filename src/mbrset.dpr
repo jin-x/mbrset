@@ -1,8 +1,8 @@
 (******************************************************************************
 
-MIT License
+The MIT License (MIT)
 
-Copyright (c) 2020 Eugene Krasnikov / Евгений Красников (aka Jin X)
+Copyright В© 2020 Р•РІРіРµРЅРёР№ РљСЂР°СЃРЅРёРєРѕРІ (Eugene Krasnikov aka Jin X)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

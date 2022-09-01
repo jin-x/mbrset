@@ -444,10 +444,10 @@ object FormMain: TFormMain
     Height = 15
     Cursor = crHandPoint
     Hint = 
-      #169' 2020 Eugene Krasnikov, jin_x@list.ru'#13#10'(double click to send em' +
+      #169' 2020-2022 Eugene Krasnikov, jin_x@list.ru'#13#10'(double click to send em' +
       'ail)'
     Anchors = [akRight, akBottom]
-    Caption = 'mbrset, v1.00 '#169' 2020 Jin X'
+    Caption = 'mbrset, v1.01 '#169' 2020-2022 Jin X'
     Font.Charset = DEFAULT_CHARSET
     Font.Color = clGrayText
     Font.Height = -9
